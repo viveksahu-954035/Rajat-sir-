@@ -1,2 +1,121 @@
-# vivek-sahu
-card
+<!DOCTYPE html>
+<html lang="hi">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Digital Visiting Card</title>
+
+<style>
+body{
+    font-family: Arial, sans-serif;
+    background: #f4f4f4;
+    margin: 0;
+    padding: 20px;
+}
+
+.card{
+    max-width: 400px;
+    margin: auto;
+    background: white;
+    border-radius: 15px;
+    overflow: hidden;
+    box-shadow: 0 0 15px rgba(0,0,0,0.2);
+}
+
+.header{
+    background: #007bff;
+    color: white;
+    text-align: center;
+    padding: 30px 20px;
+}
+
+.profile-img{
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    border: 4px solid white;
+    object-fit: cover;
+    margin-top: -60px;
+    background: white;
+}
+
+.content{
+    padding: 20px;
+    text-align: center;
+}
+
+.content h2{
+    margin: 10px 0;
+}
+
+.info{
+    text-align: left;
+    margin-top: 20px;
+}
+
+.info p{
+    margin: 10px 0;
+}
+
+.buttons a{
+    display: block;
+    text-decoration: none;
+    background: #007bff;
+    color: white;
+    padding: 12px;
+    margin: 10px 0;
+    border-radius: 8px;
+}
+
+.buttons a:hover{
+    background: #0056b3;
+}
+</style>
+</head>
+
+<body>
+
+<div class="card">
+
+    <div class="header">
+        <h1>R.K MULTIMEDIA ADVERTISING PVT. LTD.<h1>
+    </div>
+	
+	
+
+    <div class="content">
+
+     <img src="vivek.jpeg" alt="Vivek" class="profile-img">
+
+<h2 style="color:#007bff; font-size:40px; font-weight:bold;">
+    VIVEK SAHU
+</h2>
+        <p>Graphics Designer</p>
+
+        <div class="info">
+            <p><strong> Mobile:</strong> +91 8750556076</p>
+            <p><strong> Email:</strong> viveksahu954035@gmail.com</p>
+            <p><strong> Address:</strong> Delhi, India</p>
+            <p><strong> Website:</strong> X </p>
+        </div>
+
+        <div class="buttons">
+            <a href="tel:+918750556076">Call Now</a>
+
+<a href="https://wa.me/918750556076">WhatsApp</a>
+
+<a href="mailto:viveksahu954035@gmail.com">Email</a>
+
+<a href="https://instagram.com/mickey___zehen">Instagram</a>
+
+<a href="https://x.com/your_username">X (Twitter)</a>
+
+<a href="https://linkedin.com/in/your_username">LinkedIn</a>
+        </div>
+
+    </div>
+
+</div>
+
+</body>
+</html>
